@@ -1,0 +1,1321 @@
+## Google Cloud Platform (GCP)
+
+
+
+#### F1. Sie möchten einen Cron-Job planen, um stündlich eine Nachricht an ein Cloud Pub/Sub-Thema zu senden. Was tun Sie?
+
+
+
+- [ ] Erstellen Sie eine Cloud-Funktion mit dem Ziel HTTP
+
+- [ ] Erstellen Sie einen Cloud Scheduler-Job mit dem Ziel HTTP
+
+- [ ] Erstellen Sie eine Cloud-Funktion mit dem Ziel Cloud Pub/Sub
+
+- [x] Erstellen Sie einen Cloud Scheduler-Job mit dem Ziel Cloud Pub/Sub
+
+
+
+[Referenzlink](https://cloud.google.com/scheduler/docs/creating)
+
+
+
+#### F2. Sie möchten einen verwalteten Apache Spark-Cluster einrichten. Welchen Dienst konfigurieren Sie?
+
+
+
+- [ ] Cloud Dataprep
+
+- [ ] Cloud Composer
+
+- [ ] Cloud Dataflow
+
+- [x] Cloud Dataproc
+
+
+
+#### F3. GCP-Organisationen sind in Ihrem GCP-Projekt nicht verfügbar. Welche Art von Konto verwenden Sie?
+
+
+
+- [ ] Temporär
+
+- [x] Kostenlose Stufe
+
+- [ ] Lokal
+
+- [ ] Organisatorisch
+
+
+
+**Hinweis:** Die kostenlose Testversion umfasst keine Organisationen.
+
+
+
+#### F4. Welche Funktion müssen Sie aktivieren, um Lastenausgleich und automatische Skalierung verwalteter Instanzgruppen für Compute Engine zu unterstützen?
+
+
+
+- [ ] Metadaten
+
+- [ ] Sicherheitsscans
+
+- [ ] Netzwerkendpunktgruppen
+
+- [x] Integritätsprüfungen
+
+
+
+#### F5. Sie entwickeln eine Anwendung, die Nachrichten mit dem MQTT-Protokoll sendet. Welchen Dienst sollten Sie verwenden?
+
+
+
+- [ ] BigQuery
+
+- [x] Cloud Pub/Sub
+
+- [ ] IoT Broker
+
+- [ ] Bigtable
+
+
+
+#### F6. Sie möchten Dienste konfigurieren, um eine mobile Anwendung zu hosten, die TensorFlow Lite-Modelle verwendet. Welche Dienste sollten Sie verwenden?
+
+
+
+- [ ] Cloud Functions und ML Kit
+
+- [ ] Firebase und AI Platform-Jobs
+
+- [x] Firebase und ML Kit
+
+- [ ] Cloud Functions und AI Platform-Jobs
+
+
+
+[Referenzlink](https://firebase.google.com/docs/ml/android/use-custom-models)
+
+
+
+#### F7. Sie müssen Redis mit eindeutigen persistenten Identitäten und stabilen Hostnamen auf GKE bereitstellen. Welche Art von Bereitstellungsobjekt verwenden Sie?
+
+
+
+- [ ] GCP-Bereitstellung
+
+- [ ] YAML-Konfigurationsdatei
+
+- [ ] Python-verschachtelte Vorlage
+
+- [x] Stateful Set
+
+
+
+#### F8. Sie möchten ein Machine-Learning-TensorFlow-Beispiel-Notebook mit möglichst wenigen Konfigurationsschritten auf GCP ausprobieren. Was tun Sie?
+
+
+
+- [ ] Laden Sie das Notebook auf Google Colaboratory hoch. Stellen Sie den Hardwarebeschleuniger so ein, dass er GPU verwendet.
+
+- [x] Erstellen Sie eine Notebook-Instanz mit TPU. Laden Sie das Notebook auf die Instanz hoch.
+
+- [ ] Erstellen Sie eine Notebook-Instanz mit GPU. Laden Sie das Notebook in die Instanz hoch.
+
+
+
+- [ ] Laden Sie das Notebook in Google Colaboratory hoch. Stellen Sie den Hardwarebeschleuniger so ein, dass er TPU verwendet.
+
+
+
+#### F9. Sie müssen eine Datenaufbewahrungsrichtlinie für einen Cloud Storage-Bucket konfigurieren, um festzulegen, wie lange Objekte im Bucket aufbewahrt werden müssen. Welche Funktion aktivieren Sie?
+
+
+
+- [ ] Anforderer zahlt
+
+- [x] Bucket-Sperre
+
+- [ ] Nur Bucket-Richtlinie
+
+- [ ] Verschlüsselungstyp
+
+
+
+#### F10. Welche Informationen sollten Sie überprüfen und von welchem ​​Standort aus, um eine vorhandene Cloud-Funktion konfigurieren zu können?
+
+
+
+- [ ] Ausführungszeit in Cloud Storage-Protokollen
+
+- [ ] Ausführungszeit in Stackdriver-Protokollen
+
+- [x] Textnutzlast in Stackdriver-Protokollen
+
+- [ ] Textnutzlast in Cloud Storage-Protokollen
+
+
+
+#### F11. Sie müssen eine „Lift and Shift“-Bewegung mit so wenigen Schritten wie möglich durchführen. Welche Elemente müssen Sie erstellen, um diese Aufgabe auszuführen, aufgelistet in der richtigen Reihenfolge der Erstellung?
+
+
+
+- [ ] Erstellen Sie ein VPN von GCP zu Ihrem Unternehmensnetzwerk. 2. Erstellen Sie ein GCP-Netzwerk für das Projekt. 3. Erstellen Sie die VM-Instanzen zur Unterstützung der Anwendung.
+
+- [x] Erstellen Sie ein GCP-Netzwerk für das Projekt. 2. Erstellen Sie ein VPN von Ihrem Unternehmensnetzwerk zu GCP. 3. Erstellen Sie die VM-Instanzen zur Unterstützung der Anwendung.
+
+- [ ] Erstellen Sie ein GCP-Netzwerk für das Projekt. 2. Erstellen Sie ein VPN von GCP zu Ihrem Unternehmensnetzwerk. 3. Erstellen Sie die VM-Instanzen zur Unterstützung der Anwendung.
+
+- [ ] Erstellen Sie ein VPN von Ihrem Unternehmensnetzwerk zu GCP. 2. Erstellen Sie ein GCP-Netzwerk für das Projekt. 3. Erstellen Sie die VM-Instanzen zur Unterstützung der Anwendung.
+
+
+
+[Referenzlink](https://cloud.google.com/files/Lift-and-Shift-onto-Google-Cloud.pdf)
+
+
+
+#### F12. Sie sind besorgt über die Gebühren für den Datenausgang von Dateien in einem Cloud Storage-Bucket. Welche Konfigurationsänderung sollten Sie vornehmen?
+
+
+
+- [ ] Aktivieren Sie „Antragsteller zahlt“ für das Projekt.
+
+- [x] Aktivieren Sie „Antragsteller zahlt“ für den Bucket.
+
+- [ ] Ändern Sie die Standardspeicherklasse von multiregional auf regional.
+
+- [ ] Ändern Sie die Standardspeicherklasse von regional auf multiregional.
+
+
+
+[Referenzlink](https://cloud.google.com/storage/docs/requester-pays)
+
+
+
+#### F13. Sie müssen eine Android-App, die Cloud Storage verwendet, auf Fehler untersuchen. Wo suchen Sie nach Protokollen?
+
+
+
+- [ ] Firebase Crashlytics
+
+- [x] Firebase Crashlytics und Stackdriver
+
+- [ ] Firebase Testlab und Stackdriver
+
+- [ ] Stackdriver
+
+
+
+#### F14. Sie möchten Dienste so konfigurieren, dass sie eine regelmäßige interaktive Abfrage von Google AdWords-Daten durchführen können. Was sollten Sie tun?
+
+
+
+- [ ] Planen Sie die Verwendung von BigQuery. Erstellen Sie einen BigQuery-Datensatz zum Speichern der Daten.
+
+- [ ] Planen Sie die Verwendung von Cloud SQL. Aktivieren Sie die Cloud SQL Transfer Data API.
+
+- [ ] Planen Sie die Verwendung von Cloud SQL. Erstellen Sie eine Cloud SQL-Datenbank zum Speichern der Daten.
+
+- [x] Planen Sie die Verwendung von BigQuery. Aktivieren Sie die BigQuery Transfer Data API.
+
+
+
+#### F15. Sie möchten von GCP bevorzugte Basis-Container-Images verwenden. Wo können Ihre Benutzer diese Images finden?
+
+
+
+- [ ] Docker Hub
+
+- [ ] Compute Engine-Basis-Images
+
+- [x] GCP Marketplace
+
+- [ ] Google Kubernetes Engine-Basis-Images
+
+
+
+[Referenzlink](https://cloud.google.com/software-supply-chain-security/docs/base-images)
+
+
+
+#### F16. Sie möchten eine Benachrichtigung für Serviceausgaben in GCP einrichten. Was tun Sie und wer wird benachrichtigt?
+
+
+
+- [x] Verwenden Sie den Abschnitt „Budgets“ der GCP-Abrechnungskonsole, um eine Abrechnungsbenachrichtigung einzurichten. Der Abrechnungsadministrator wird benachrichtigt, wenn der Warnschwellenwert überschritten wird.
+
+- [ ] Verwenden Sie den Abschnitt „Budgets“ der GCP-Abrechnungskonsole, um eine Abrechnungsbenachrichtigung einzurichten. Der Organisationsadministrator wird benachrichtigt, wenn der Warnschwellenwert überschritten wird.
+
+- [ ] Verwenden Sie den Abschnitt „Budgets“ der GCP-Organisationskonsole, um eine Abrechnungsbenachrichtigung einzurichten. Der Projektadministrator wird benachrichtigt, wenn der Warnschwellenwert überschritten wird.
+
+- [ ] Verwenden Sie den Abschnitt „Budgets“ der GCP-Organisationskonsole, um eine Rechnungsbenachrichtigung festzulegen. Der Organisationsadministrator wird benachrichtigt, wenn der Warnschwellenwert überschritten wird.
+
+
+
+#### F17. Welche zwei relationalen Datenbanken werden von Cloud SQL unterstützt?
+
+
+
+- [ ] Redis und Oracle
+
+- [ ] MySQL und Oracle
+
+- [ ] Redis und PostgreSQL
+
+- [x] MySQL und PostgreSQL
+
+
+
+#### F18. Sie möchten schnell ein einzelnes Docker-Container-Image testen, das einen zustandslosen HTTP-Dienst auf GCP startet. Welchen Dienst wählen Sie zum Hosten Ihres Container-Images aus?
+
+
+
+- [x] Cloud Run
+
+- [ ] Cloud Run auf Google Kubernetes Engine
+
+- [ ] Cloud Functions
+
+- [ ] Google Kubernetes Engine
+
+
+
+[Referenzlink](https://cloud.google.com/blog/products/containers-kubernetes/when-to-use-google-kubernetes-engine-vs-cloud-run-for-containers)
+
+
+
+#### F19. Sie möchten Firebase-Sicherheitsregeln gemäß den Best Practices von Google entwickeln. Welche(s) Tool(s) verwenden Sie?
+
+
+
+- [x] Firebase-Emulator
+
+- [ ] Firebase-Emulator und GCP-Regel-Simulator
+
+- [ ] GCP-Richtlinien-Emulator und Firebase-Regel-Simulator
+
+- [ ] Firebase-Emulator und Firebase-Regel-Simulator
+
+
+
+#### F20. Sie möchten eine Anwendung mit Gesprächsinterpretation basierend auf maschinellem Sprachverständnis erstellen. Welcher Dienst eignet sich am besten für dieses Szenario?
+
+
+
+- [x] Dialogflow
+
+- [ ] Natürliche Sprachübersetzung
+
+- [ ] Sprach-API
+
+- [ ] AutoML Natürliche Sprache
+
+
+
+[Referenzlink](https://cloud.google.com/dialogflow)
+
+
+
+#### F21. Welchen Dienst müssen Sie auf Ihrem GKE-Cluster aktivieren, um Cloud Run auf Google Kubernetes Engine (GKE) zu verwenden?
+
+
+
+- [x] Stackdriver
+
+- [ ] Istio
+
+- [ ] Knative
+
+- [ ] Spinnaker
+
+
+
+#### F22. Wie können Sie Clients innerhalb eines GKE-Clusters befähigen, Pods zu kontaktieren?
+
+
+
+- [ ] Konfigurieren Sie die Clients so, dass sie sich über die Standard-Cluster-IP verbinden.
+
+- [ ] Konfigurieren Sie einen externen Namen. Konfigurieren Sie die Clients so, dass sie sich über den externen Namen verbinden.
+
+- [x] Konfigurieren Sie einen Knotenport. Konfigurieren Sie die Clients so, dass sie sich über den Knotenport verbinden.
+
+- [ ] Konfigurieren Sie einen Load Balancer. Konfigurieren Sie die Clients so, dass sie sich über den Load Balancer verbinden.
+
+
+
+#### F23. Sie möchten den Nachrichtenbestätigungsstatus eines Abonnements zu einem bestimmten Zeitpunkt erfassen. Was tun Sie?
+
+
+
+- [ ] Erstellen Sie ein Cloud Pub/Sub-Abonnement-Backup.
+
+- [ ] Erstellen Sie ein Cloud Pub/Sub-Abonnement-Thema.
+
+- [x] Erstellen Sie einen Cloud Pub/Sub-Abonnement-Snapshot.
+
+- [ ] Erstellen Sie ein Cloud Pub/Sub-Abonnement.
+
+
+
+#### F24. Sie müssen eine Bucket-Speicherklasse für Daten festlegen, auf die einmal im Monat oder seltener zugegriffen wird. Welchen Typ wählen Sie aus?
+
+
+
+- [ ] Coldline
+
+- [ ] Multiregional
+
+- [ ] Regional
+
+- [x] Nearline
+
+
+
+#### F25. Welcher Befehl kopiert eine Datei namens test.txt in einen Cloud Storage-Bucket namens myBucket?
+
+
+
+- [ ] `gcloud cp gs://myBucket test.txt`
+
+- [ ] `gsutil cp gs://myBucket test.txt`
+
+- [ ] `gcloud cp test.txt gs://myBucket`
+
+- [x] `gsutil cp test.txt gs://myBucket`
+
+
+
+#### F26. Welcher Befehl fügt Ihrer Bigtable-Tabelle namens `my-table` eine Spaltenfamilie namens `cf1` hinzu?
+
+
+
+- [ ] `cbt createfamily cf1 my-table`
+
+- [x] `cbt createfamily my-table cf1`
+
+- [ ] `gcloud createfamily cf1 my-table cf1`
+
+- [ ] `gcloud createfamily my-table cf1`
+
+
+
+#### F27. Welchen Befehl verwenden Sie, um sich per SSH mit einer laufenden Compute Engine-Instanz zu verbinden?
+
+
+
+- [ ] `gcloud ssh compute [instance_name] --zone=[zone]`
+
+- [ ] `compute ssh connect [instance_name] --zone=[zone]`
+
+- [x] `gcloud compute ssh [instance_name] --zone=[zone]`
+
+- [ ] `compute connect ssh [instance_name] --zone=[zone]`
+
+
+
+#### F28. Sie müssen CORS für einige Objekte in einem Bucket für eine clientseitige Anwendung festlegen. Was tun Sie?
+
+
+
+- [ ] Segmentieren Sie die Objekte in zwei Buckets. Legen Sie für die CORS-Objekte die CORS-Richtlinie auf Bucket-Ebene fest.
+
+- [x] Segmentieren Sie die Objekte in zwei Buckets. Legen Sie für die CORS-Objekte die CORS-Richtlinie auf Bucket-Ebene fest. Fügen Sie clientseitigen Code hinzu, um die Anfragen zu verarbeiten.
+
+- [ ] Lassen Sie die Objekte in einem Bucket. Legen Sie die CORS-Richtlinie auf Objektebene fest.
+
+- [ ] Lassen Sie die Objekte in einem Bucket. Legen Sie die CORS-Richtlinie auf Objektebene fest. Fügen Sie clientseitigen Code hinzu, um die Anfragen zu verarbeiten.
+
+
+
+[Referenzlink](https://cloud.google.com/storage/docs/cross-origin)
+
+
+
+#### F30. Sie müssen Instanzen mit identischen Konfigurationen erstellen, die nicht geändert werden können. Welche Compute Engine-Funktion verwenden Sie?
+
+
+
+- [x] Instanzvorlagen
+
+- [ ] Instanzgruppen
+
+- [ ] Snapshots
+
+- [ ] Instanzen
+
+
+
+#### F31. Sie möchten automatisch Sicherheitsscans an benutzerentwickelten Containern durchführen. Wo sollten Sie Ihren Benutzern empfehlen, ihre Container zu hosten?
+
+
+
+- [x] Google Container Registry
+
+- [ ] GitLab
+
+- [ ] Artifactory
+
+- [ ] Docker Hub
+
+
+
+#### F32. Sie müssen eingehenden und ausgehenden Datenverkehr zu einer Compute Engine-Instanz kontrollieren. Was tun Sie?
+
+
+
+- [x] Firewall-Regeln konfigurieren.
+
+- [ ] VPC-Netzwerk-Peering konfigurieren.
+
+- [ ] Routen konfigurieren.
+
+- [ ] Externe IP-Adressen konfigurieren.
+
+
+
+[Referenzlink](https://cloud.google.com/vpc/docs/firewalls)
+
+
+
+#### F33. Welches Objekt ist ein Container für GCP-Dienstinstanzen?
+
+
+
+- [ ] Gruppe
+
+- [ ] Ordner
+
+- [x] Projekt
+
+- [ ] Organisation
+
+
+
+#### F34. Was wird benötigt, um in Ihrem Projekt auf GCP-APIs zuzugreifen?
+
+
+
+- [ ] GCP-VMs
+
+- [ ] GCP-Buckets
+
+- [ ] GCP-Anmeldeinformationen
+
+- [x] GCP-Benutzer
+
+
+
+[Referenzlink](https://cloud.google.com/endpoints/docs/openapi/enable-api)
+
+
+
+#### F35. Welches Objekt wird verwendet, um Zahlungsinformationen für ein GCP-Projekt zu speichern?
+
+
+
+- [ ] Organisation
+
+- [x] Abrechnungskonto
+
+- [ ] Ordner
+
+- [ ] Zahlungskonto
+
+
+
+[Referenzlink](https://cloud.google.com/billing/docs/images/billing-project.png?raw=png)
+
+
+
+#### F36. Sie müssen Ihre statischen HTTP- und HTTPS-Inhalte näher an den Benutzern zwischenspeichern, damit Sie eine schnellere Bereitstellung erreichen und die Bereitstellungskosten senken können. Welchen Dienst richten Sie ein?
+
+
+
+- [ ] Cloud DNS
+
+- [ ] Cloud NAT
+
+- [x] Cloud CDN
+
+- [ ] Cloud Load Balancing
+
+
+
+[Referenzlink](https://cloud.google.com/cdn/docs/caching)
+
+
+
+#### F37. Sie entwerfen Sicherheit für eine IoT-Geräteanwendung. Welche Best Practices sollten Sie in Ihren Entwurf einbeziehen?
+
+
+
+- [ ] Verwenden Sie für jedes Gerät einen privaten Schlüssel. Halten Sie den privaten Schlüssel geheim.
+
+- [ ] Verwenden Sie für jedes Gerät einen öffentlichen Schlüssel. Halten Sie den öffentlichen Schlüssel geheim.
+
+- [ ] Verwenden Sie für jedes Gerät ein öffentliches privates Schlüsselpaar. Halten Sie den öffentlichen Schlüssel geheim.
+
+- [x] Verwenden Sie für jedes Gerät ein öffentliches privates Schlüsselpaar. Halten Sie den privaten Schlüssel geheim.
+
+
+
+[Referenzlink](https://cloud.google.com/iot/docs/concepts/device-security)
+
+
+
+#### F38. Sie müssen eine WordPress-Site mit hoher Verfügbarkeit auf GCP mit möglichst wenigen Schritten einrichten. Was tun Sie?
+
+
+
+- [ ] Konfigurieren und starten Sie die WordPress HA-Bereitstellungsvorlage vom GCP Marketplace.
+
+- [ ] Konfigurieren und starten Sie die WordPress HA-Bereitstellungsvorlage vom WordPress Marketplace.
+
+- [x] Erstellen, konfigurieren und starten Sie eine WordPress HA-Bereitstellungsvorlage auf Compute Engine.
+
+- [ ] Erstellen, konfigurieren und starten Sie eine WordPress HA-Bereitstellungsvorlage auf Google Kubernetes Engine.
+
+
+
+#### F39. Wie konfigurieren Sie Cloud Build, um Ihr Image neu zu erstellen, wenn eine Änderung am Quellcode vorgenommen wird?
+
+
+
+- [x] Fügen Sie einen Cloud Build-Trigger hinzu und stellen Sie ihn so ein, dass er beim Commit zum zugehörigen Repository ausgelöst wird.
+
+- [ ] Fügen Sie eine Cloud Build-Funktion hinzu und stellen Sie sie so ein, dass sie beim Commit zum zugehörigen Repository ausgelöst wird.
+
+- [ ] Fügen Sie einen Cloud Build-Trigger hinzu und stellen Sie ihn so ein, dass er beim Commit zum zugehörigen Register ausgelöst wird.
+
+- [ ] Fügen Sie eine Cloud Build-Funktion hinzu und stellen Sie sie so ein, dass sie beim Commit zum zugehörigen Register ausgelöst wird.
+
+
+
+#### F40. Welche Bedingungen müssen erfüllt sein, um Dateien entschlüsseln zu können, die mit einem Kundenmanagerschlüssel verschlüsselt wurden?
+
+
+
+- [x] Geben Sie den Entschlüsselungsschlüssel mit demselben Namen wie den Verschlüsselungsschlüssel an. Mindestens eine Version eines Schlüssels mit diesem Namen muss aktiviert sein.
+
+
+
+- [ ] Geben Sie einen Entschlüsselungsschlüssel und eine Version mit demselben Namen wie den Verschlüsselungsschlüssel und die Version an. Der benannte Schlüssel und diese Version müssen aktiviert sein.
+
+
+
+- [ ] Geben Sie den Entschlüsselungsschlüssel mit demselben Namen wie den Verschlüsselungsschlüssel an. Der benannte Schlüssel und diese Version müssen aktiviert sein.
+
+
+
+- [ ] Geben Sie einen Entschlüsselungsschlüssel und eine Version mit demselben Namen wie den Verschlüsselungsschlüssel und die Version an. Mindestens eine Version eines Schlüssels mit diesem Namen muss aktiviert sein.
+
+
+
+#### F41. Sie möchten eine Compute Engine verschlüsseln. Was müssen Sie tun?
+
+
+
+- [x] Nichts. Bilder werden standardmäßig mit einem von Google verwalteten Schlüssel verschlüsselt.
+
+- [ ] Nichts. Bilder werden standardmäßig mit einem vom Kunden verwalteten Schlüssel verschlüsselt.
+
+- [ ] Ordnen Sie Ihrem Bild einen vom Kunden verwalteten Schlüssel zu, um es zu verschlüsseln.
+
+- [ ] Ordnen Sie Ihrem Bild einen von Google verwalteten Schlüssel zu, um es zu verschlüsseln.
+
+
+
+[Referenz](https://cloud.google.com/compute/docs/disks/customer-supplied-encryption)
+
+
+
+#### F42. Sie möchten Cloud Filestore schnell testen. Welche Schritte sind in der richtigen Reihenfolge erforderlich, um eine Testumgebung einzurichten?
+
+
+
+- [ ] A
+
+
+
+```
+
+1. Erstellen Sie eine Filestore-Instanz.
+
+2. Mounten Sie die Dateifreigabe von dieser Instanz auf einer Client-VM-Instanz.
+
+3. Erstellen Sie eine Compute Instance-VM als Client.
+
+4. Erstellen Sie eine Datei auf der gemounteten Dateifreigabe.
+
+```
+
+
+
+- [ ] B
+
+
+
+```
+
+1. Erstellen Sie eine Filestore-Instanz.
+
+2. Mounten Sie die Dateifreigabe von dieser Instanz auf einer Client-VM-Instanz.
+
+3. Erstellen Sie eine Datei auf der gemounteten Dateifreigabe.
+
+4. Erstellen Sie eine Compute Instance-VM als Client.
+
+```
+
+
+
+- [x] C
+
+
+
+```
+
+1. Erstellen Sie eine Compute Instance-VM als Client.
+
+2. Erstellen Sie eine Filestore-Instanz.
+
+3. Mounten Sie die Dateifreigabe von dieser Instanz auf einer Client-VM-Instanz.
+
+4. Erstellen Sie eine Datei auf der bereitgestellten Dateifreigabe.
+
+```
+
+
+
+- [ ] D
+
+
+
+```
+
+1. Erstellen Sie eine Compute Instance-VM als Client.
+
+2. Erstellen Sie eine Cloud Filestore-Instanz.
+
+3. Mounten Sie die Dateifreigabe von dieser Instanz auf einer Client-VM-Instanz.
+
+4. Erstellen Sie eine Datei auf der bereitgestellten Dateifreigabe.
+
+```
+
+
+
+[Referenz](https://cloud.google.com/filestore/docs/quickstart-console)
+
+
+
+#### F43. Sie müssen die Ausgaben für ständig aktive virtuelle Compute Engine-Maschinen bestimmter Größen und Typen optimieren – mit minimalem Aufwand. Was tun Sie?
+
+
+
+- [ ] Analysieren Sie die Maschinennutzung, um sicherzustellen, dass die Maschinen mehr als 25 % der Zeit eingeschaltet sind, und stellen Sie sicher, dass Rabatte für begrenzte Nutzung automatisch auf Ihre Rechnung angewendet wurden.
+
+- [x] Analysieren Sie die Maschinennutzung, um sicherzustellen, dass die Maschinen mehr als 25 % der Zeit eingeschaltet sind, und stellen Sie sicher, dass Rabatte für kontinuierliche Nutzung automatisch auf Ihre Rechnung angewendet wurden.
+
+- [ ] Analysieren Sie die Maschinennutzung, um sicherzustellen, dass die Maschinen mehr als 25 % der Zeit eingeschaltet sind, und erwerben Sie Rabatte für begrenzte Nutzung.
+
+
+
+- [ ] Analysieren Sie die Maschinennutzung, um sicherzustellen, dass die Maschinen mehr als 25 % der Zeit eingeschaltet sind, und erwerben Sie Rabatte für dauerhafte Nutzung.
+
+
+
+[Referenz](https://cloud.google.com/compute/docs/sustained-use-discounts)
+
+
+
+#### F44. Sie entwerfen einen GCP-Ersatz für Ihr lokales Data Warehouse. Welchen Dienst wählen Sie aus?
+
+
+
+- [ ] Cloud SQL
+
+- [ ] Bigtable
+
+- [ ] Cloud Spanner
+
+- [x] BigQuery
+
+
+
+#### F45. Wie können Sie schnell eine persistente Festplatte auf Compute Engine sichern?
+
+
+
+- [x] Einen Snapshot erstellen
+
+- [ ] Eine Instanzgruppe erstellen
+
+- [ ] Eine Instanzvorlage erstellen
+
+- [ ] Ein Image erstellen
+
+
+
+#### F46. Sie implementieren IAM-Rollen für Ihre Organisation gemäß den Best Practices von GCP. Welche Aussage spiegelt dies am besten wider?
+
+
+
+- [ ] Sie sollten mindestens zwei Zugriffsebenen haben: eine für Administratoren, eine für Benutzer.
+
+- [ ] Sie sollten mindestens drei Zugriffsebenen haben: eine für Netzwerke, eine für Sicherheit, eine für Entwickler.
+
+- [x] Sie sollten mindestens drei Zugriffsebenen haben: eine für Administratoren, eine für Sicherheit, eine für Benutzer.
+
+- [ ] Sie sollten mindestens zwei Zugriffsebenen haben: eine für Netzwerke, eine für Entwickler.
+
+
+
+#### F47. Sie müssen schnell eine Anwendung erstellen, die alle Datei-Uploads in einen Cloud Storage-Bucket protokolliert. Welchen Dienst wählen Sie aus?
+
+
+
+- [x] Cloud Functions
+
+- [ ] Cloud Run
+
+- [ ] Google Kubernetes Engine
+
+- [ ] Google Compute Engine
+
+
+
+[Referenz](https://cloud.google.com/functions#all-features)
+
+
+
+#### F48. Sie müssen die Frage „Wie lange braucht meine Anwendung, um eine bestimmte Anfrage zu verarbeiten?“ beantworten. Was tun Sie?
+
+
+
+- [ ] Konfigurieren Sie die Stackdriver-Fehlerberichterstattung.
+
+- [ ] Konfigurieren Sie den Stackdriver-Profiler.
+
+- [x] Konfigurieren Sie den Stackdriver-Trace.
+
+- [ ] Konfigurieren Sie den Stackdriver-Debug.
+
+
+
+[Referenz](https://stackoverflow.com/questions/69434714/how-to-use-stackdriver-on-gcp-to-get-how-long-does-it-take-to-process-a-request)
+
+
+
+#### F49. Sie möchten eine vollständig verwaltete, serverlose Plattform für die Entwicklung und das Hosting von Webanwendungen in großem Maßstab auf GCP auswählen. Welchen Dienst sollten Sie wählen?
+
+
+
+- [x] Google App Engine.
+
+- [ ] Cloud Functions.
+
+- [ ] Google Kubernetes Engine.
+
+- [ ] Google Compute Engine.
+
+
+
+[Referenzlink](https://cloud.google.com/appengine/docs)
+
+
+
+#### F50. Sie haben eine Reihe von explorativen Abfragen, die Sie so kostengünstig wie möglich in BigQuery ausführen möchten. Was sollten Sie tun?
+
+
+
+- [ ] Setzen Sie die Jobpriorität für jede Abfrage auf Batch und erwarten Sie, dass die Abfrageergebnisse sofort angezeigt werden.
+
+- [x] Setzen Sie die Jobpriorität für jede Abfrage auf Interactive und erwarten Sie, dass die Abfrageergebnisse sofort angezeigt werden.
+
+- [ ] Setzen Sie die Jobpriorität für jede Abfrage auf Batch und erwarten Sie, dass die Abfrageergebnisse innerhalb von 24 Stunden angezeigt werden.
+
+- [ ] Setzen Sie die Jobpriorität für jede Abfrage auf Batch und erwarten Sie, dass die Abfrageergebnisse innerhalb von 24 Stunden angezeigt werden.
+
+
+
+**Erklärung**: _BigQuery bietet die Wahl zwischen zwei Preismodellen für die Ausführung von Abfragen: On-Demand (Ihnen wird die Anzahl der pro Abfrage verarbeiteten Bytes in Rechnung gestellt) und Flatrate (Sie kaufen Slots – dedizierte Verarbeitungskapazität)._ Wenn die explorativen Abfragen einmalig sind, scheint die Ausführung im interaktiven Modus mit On-Demand-Preisen die optimale Lösung zu sein.
+
+
+
+[Referenz](https://cloud.google.com/bigquery/pricing)
+
+
+
+#### F51. Wie führen Sie ein Docker-Container-Image auf einer virtuellen Maschine von Google Compute Engine aus?
+
+
+
+- [ ] Erstellen Sie eine VM-Instanz, greifen Sie dann per SSH auf die Instanz zu und installieren Sie Kubernetes-Tools.
+
+- [ ] Erstellen Sie eine VM-Instanz, greifen Sie dann per SSH auf die Instanz zu und installieren Sie Docker-Tools.
+
+- [ ] Erstellen Sie eine VM-Instanz und wählen Sie in der Web-Benutzeroberfläche „HTTP-Verkehr zulassen“ aus.
+
+- [x] Erstellen Sie eine VM-Instanz und wählen Sie in der Web-Benutzeroberfläche „Container-Image für diese Instanz bereitstellen“ aus.
+
+
+
+#### F52. Welches Element sollten Sie zuerst erstellen, um eine GCP-Organisation zu konfigurieren?
+
+
+
+- [x] Administratorkonto
+
+- [ ] Superadministratorkonto
+
+- [ ] Multi-Faktor-Authentifizierung
+
+- [ ] Wiederherstellungskennwort
+
+
+
+#### F53. Welche(n) Container unterstützt Google Kubernetes Engine?
+
+
+
+- [ ] Docker oder Singularity
+
+- [ ] Docker, Singularity oder containerd
+
+- [ ] Nur Singularity
+
+- [x] Nur Docker
+
+
+
+#### F54. Cloud Genomics ermöglicht die Ausführung von Pipelines auf welchem ​​GCP-Dienst?
+
+
+
+- [x] Cloud Dataflow
+
+- [ ] Google Kubernetes Engine
+
+- [ ] Cloud Dataproc
+
+- [ ] Compute Engine
+
+
+
+#### F55. Sie möchten ein Compute Engine-Image verschlüsseln. Was müssen Sie tun?
+
+
+
+- [ ] Nichts. Images werden standardmäßig mit einem von Google verwalteten Schlüssel verschlüsselt.
+
+- [ ] Verknüpfen Sie Ihr Image mit dem standardmäßigen von Google verwalteten Schlüssel, um es zu verschlüsseln.
+
+- [ ] Nichts. Images werden standardmäßig mit einem vom Kunden verwalteten Schlüssel verschlüsselt.
+
+- [x] Verknüpfen Sie Ihr Image mit einem vom Kunden verwalteten Schlüssel, um es zu verschlüsseln.
+
+
+
+**Erklärung**: `Google speichert Ihre Schlüssel nicht auf seinen Servern und kann nicht auf Ihre geschützten Daten zugreifen, es sei denn, Sie geben den Schlüssel an. Das bedeutet auch, dass es für Google keine Möglichkeit gibt, den Schlüssel wiederherzustellen oder mit dem verlorenen Schlüssel verschlüsselte Daten wiederherzustellen, wenn Sie ihn vergessen oder verlieren.`
+
+
+
+[Referenz](https://cloud.google.com/compute/docs/disks/customer-supplied-encryption)
+
+
+
+#### F56. Sie möchten eine Data Lake-Anwendung auf GCP erstellen. Welche zwei Dienste sollten Sie verwenden?
+
+
+
+- [ ] Cloud Storage und Cloud Spanner
+
+- [x] Cloud Storage und Big Query
+
+- [ ] Cloud Pub/Sub und Cloud Spanner
+
+- [ ] Cloud Pub/Sub und Big Query
+
+
+
+#### F56. Sie möchten mit Benutzern der GCP-Organisation in der Konsole arbeiten. Wohin navigieren Sie?
+
+
+
+- [ ] admin.google.com > Verwaltung
+
+- [x] console.cloud.google.com > Verwaltung
+
+- [ ] admin.google.com > Benutzer
+
+- [ ] console.cloud.google.com > Benutzer
+
+
+
+#### F56. Sie möchten eine vollständig verwaltete Plattform für die Entwicklung und das Hosting einer in Kotlin geschriebenen Webanwendung in großem Maßstab auf GCP auswählen. Welchen Dienst sollten Sie wählen?
+
+
+
+- [x] Google App Engine Flexible
+
+- [ ] Google App Engine Standard
+
+- [ ] Google Kubernetes Engine Flexible
+
+- [ ] Google Kubernetes Engine Standard
+
+
+
+#### F57. Welche Kombination von Stackdriver-Diensten warnt Sie vor von Ihren Anwendungen generierten Fehlern und hilft Ihnen, die Grundursache im Code zu finden?
+
+
+
+- [x] Google Cloud Platform, Amazon Web Services
+
+- [ ] Google Cloud Platform, Microsoft Azure, Amazon Web Services
+
+- [ ] Google Cloud Platform, Microsoft Azure
+
+- [ ] Google Cloud Platform
+
+
+
+#### F58. Sie verwenden Google Cloud Platform, um einen Apache-Server zu hosten, und möchten eine Warnmeldung aktivieren, die Sie benachrichtigt, wenn der Webserver nicht mehr reagiert. Welchen Google Cloud-Dienst und welche Schritte sollten Sie unternehmen, um diese Warnmeldung einzurichten?
+
+
+
+- [ ] Die Größe der exportierten Stackdriver-Protokolleinträge überschreitet die maximale Kapazität des BigQuery-Datensatzes.
+
+- [ ] Der Cloud Data Transfer Service wurde nicht aktiviert.
+
+- [x] Stackdriver Logging hat keine Berechtigung, in den BigQuery-Datensatz zu schreiben.
+
+- [ ] Es gibt keine Firewall-Regel, die Datenverkehr zwischen Stackdriver und BigQuery zulässt.
+
+
+
+#### F59. Wenn Sie Stackdriver Logging so konfiguriert haben, dass Protokolle nach BigQuery exportiert werden, aber Protokolleinträge nicht nach BigQuery exportiert werden, was ist die wahrscheinlichste Ursache?
+
+
+
+- [ ] Überwachung, Ablaufverfolgung und Debugger
+
+- [ ] Überwachung und Fehlerberichterstattung
+
+- [ ] Warnmeldungen und Debugger
+
+- [x] Debugger und Fehlerberichterstattung
+
+
+
+#### F60. Auf welchen Cloud-Plattformen können Sie Stackdriver zur Überwachung virtueller Maschinen verwenden?
+
+
+
+- [x] Verwenden Sie Cloud Monitoring und erstellen Sie eine Verfügbarkeitsprüfung.
+
+- [ ] Verwenden Sie Cloud Monitoring und installieren Sie den Monitoring Agent auf der Instanz, auf der der Apache-Server ausgeführt wird.
+
+- [ ] Verwenden Sie Cloud Monitoring und installieren Sie den Ops Agent auf der Instanz, auf der der Apache-Server ausgeführt wird.
+
+- [ ] Verwenden Sie Cloud Profiler und erstellen Sie eine Warnung.
+
+
+
+#### F61. In Google Kubernetes Engine ist „**\_**“ ein Begriff, den Kubernetes zur Darstellung von Pods und Controllern verwendet.
+
+
+
+- [ ] Master
+
+- [ ] Pools
+
+- [x] Workloads
+
+- [ ] Knoten
+
+
+
+#### F62. Was ist im folgenden Befehl der Zweck des Arguments „--image“?
+
+
+
+```
+
+kubectl create deployment app --image=$ImageRepo:$Tag
+
+```
+
+
+
+- [ ] Es teilt Kubernetes mit, welches virtuelle Maschinen-Image beim Starten neuer Knoten verwendet werden soll.
+
+- [ ] Es wird verwendet, um ein Disk-Image eines laufenden Docker-Containers für Backups oder zur Verwendung in einer anderen Bereitstellung zu erstellen.
+
+- [x] Es teilt dem Bereitstellungscontroller mit, welches Repository nach einem Docker-Image zu durchsuchen ist und welches Tag zu verwenden ist.
+
+- [ ] Es teilt dem Bereitstellungscontroller mit, welcher Linux-Betriebssystemtyp beim Erstellen von Pods verwendet werden soll.
+
+
+
+#### F63. Wie viele IP-Adressen pro Pod empfiehlt Google, um die begrenzte Anzahl von IP-Adressen pro Knoten effektiv zu verwalten?
+
+
+
+- [ ] Eine IP-Adresse pro Pod
+
+- [ ] Drei IP-Adressen pro Pod
+
+- [ ] Vier IP-Adressen pro Pod
+
+- [x] Zwei IP-Adressen pro Pod
+
+
+
+#### F64. In Google Kubernetes Engine sind **\_** die kleinste Bereitstellungseinheit innerhalb eines Kubernetes-Clusters und unsere primären Kubernetes-Bausteine.
+
+
+
+- [x] Pods
+
+- [ ] Instanzen
+
+- [ ] Sets
+
+- [ ] Container
+
+
+
+#### F65. Welche der folgenden Aussagen ist keine allgemeine Sicherheitsrichtlinie für eine Bereitstellungspipeline der Google Cloud Platform?
+
+
+
+- [ ] Überprüfen Sie regelmäßig alle Änderungen an Ihren IAM-Richtlinien.
+
+- [x] Integrationsschritte sollten Code bereitstellen können.
+
+- [ ] Protokollieren Sie alles.
+
+- [ ] Bereitstellungsschritte sollten keinen Code erstellen oder auf Ihr Code-Repository zugreifen können.
+
+
+
+#### F66. Um die Bereitstellung signierter Images mit aktivierter Binärautorisierung der Google Cloud Platform zu ermöglichen, müssen Sie ein(e) **\_** erstellen.
+
+
+
+- [ ] virtuelle Maschine
+
+- [ ] Alarm
+
+- [ ] Protokoll
+
+- [x] Attestierer
+
+
+
+#### F67. Builder in Cloud Build sind
+
+
+
+- [ ] Teil der proprietären Infrastruktur von Google
+
+- [ ] erstellt aus Managed Instance Templates
+
+- [x] Container mit vorinstallierten Tools und Laufzeiten
+
+- [ ] virtuelle Maschinen mit vorinstallierten Tools und Laufzeiten
+
+
+
+#### F68. Welche der folgenden Aussagen zur Sicherheit in der Bereitstellungspipeline der Google Cloud Platform ist falsch?
+
+
+
+- [x] Es ist ziemlich normal, dass Entwickler und QA-Ingenieure neue Cluster erstellen dürfen, aber keine Container in bestimmten vorhandenen Clustern bereitstellen dürfen.
+
+- [ ] Der Zugriff jedes Mitarbeiters auf Google Cloud-Ressourcen sollte darauf basieren, was er für seine Arbeit benötigt.
+
+- [ ] Die genauen Berechtigungen variieren je nach den Anforderungen des Unternehmens und hängen von der Anzahl der vorhandenen Rollen, Schritte und Umgebungen ab.
+
+- [ ] Der Zugriff jedes Mitarbeiters auf Google Cloud-Ressourcen sollte auf dem Prinzip der geringsten Privilegien basieren.
+
+
+
+#### F69. Um einen Schlüssel in der Google Cloud Platform zu erstellen und zu speichern, müssen Sie zunächst ein **\_** erstellen, um den Schlüssel aufzubewahren.
+
+
+
+- [ ] Wallet
+
+- [x] Schlüsselbund
+
+- [ ] Richtlinie
+
+- [ ] Schlüsselbund
+
+
+
+#### F70. David ist der Cloud-Administrator für Blue Widget Corp. Er hat eine Linux-VM namens Linux01 bereitgestellt und muss von der Konsole aus per SSH darauf zugreifen. Welchen Befehl sollte David verwenden, um per SSH auf die VM zuzugreifen?
+
+
+
+- [ ] gcloud ssh --project blue-widget-project --zone us-central1-a Linux01
+
+- [ ] gcloud compute ssh --project blue-widget-project -zone us-central1-a Linux01
+
+- [ ] gcloud connect ssh --project blue-widget-project --zone us-central1-a Linux01
+
+- [x] gcloud compute ssh --project blue-widget-project --zone us-central1-a Linux01
+
+
+
+#### F71. Mit welcher Option können Sie Latenzdaten von App Engine-Apps überprüfen?
+
+
+
+- [ ] App Engine-Latenz
+
+- [x] Stackdriver Trace
+
+- [ ] App Engine-Datenanzeige
+
+- [ ] Stackdriver-Latenz
+
+
+
+
+
+2,010 / 5,000
+
+#### F72. Von welchem ​​der folgenden Speicherorte können Sie Ihren Quellcode in Bezug auf Stackdriver Debugger nicht auswählen?
+
+
+
+- [ ] Bitbucket-Repository
+
+- [x] Amazon S3
+
+- [ ] Lokale Dateien
+
+- [ ] GitHub-Repository
+
+
+
+#### F73. Google Cloud-Dienste verwalten **\_**, die alle Aktivitäten und Zugriffe auf Ihre GCP-Ressourcen aufzeichnen.
+
+
+
+- [ ] Konfigurationsdateien
+
+- [ ] Wartungsskripte
+
+- [ ] Analyseprotokolle
+
+- [x] Prüfprotokolle
+
+
+
+#### F74. Welche Kategorie von GCP-Prüfprotokollen zeichnet alle Vorfälle auf, bei denen einem Benutzer oder Dienstkonto der Zugriff auf eine Ressource verweigert wird?
+
+
+
+- [ ] Systemereignis
+
+- [x] Richtlinie verweigert
+
+- [ ] Administratoraktivität
+
+- [ ] Datenzugriff
+
+
+
+#### F75. Wenn Sie die Bedingung für eine Regel in Google Cloud Armor festlegen, können Sie im **\_**-Modus nur nach IP-Adresse oder CIDR-Bereich filtern.
+
+
+
+- [ ] IP/CIDR
+
+- [ ] Erweitert
+
+- [ ] Benutzerdefiniert
+
+- [x] Einfach
+
+
+
+[Referenz](https://cloud.google.com/armor/docs/configure-security-policies)
+
+
+
+#### F76. Welcher Google Cloud-Dienst bietet ein Übersichts-Dashboard, das Ihnen aktive Bedrohungen und Schwachstellen nach Schweregrad sortiert anzeigt?
+
+
+
+- [ ] Cloud Armor
+
+- [x] Security Command Center
+
+- [ ] Cloud Logging
+
+- [ ] Cloud Deployment Manager
+
+
+
+[Referenz](https://cloud.google.com/security-command-center)
+
+
+
+#### F77. Welches Feld einer Google Cloud Armor-Regel bestimmt, wann die Regel ausgewertet wird?
+
+
+
+- [ ] ID
+
+- [ ] Schweregrad
+
+- [ ] Sequenz
+
+- [x] Priorität
+
+
+
+[Referenz](https://cloud.google.com/armor/docs/cloud-armor-overview#rules_language)
+
+
+
+#### F78. Was ist eine ACL?
+
+
+
+- [ ] Zugriffscontainerprotokoll
+
+- [ ] Autorisierte Containerliste
+
+- [x] Zugriffskontrollliste
+
+- [ ] App Cloud Launch
+
+
+
+[Referenz](https://cloud.google.com/storage/docs/access-control/create-manage-lists)
+
+
+
+#### F79. In der Google Cloud Platform gewährt die Rolle **\_** zusätzlich zu dem Zugriff, der durch die Rolle „Protokollbetrachter“ gewährt wird, schreibgeschützten Zugriff auf die Zugriffstransparenzprotokolle und auf Datenzugriffs-Auditprotokolle.
+
+
+
+- [x] Privater Protokollbetrachter
+
+- [ ] Projektautor
+
+- [ ] Protokollautor
+
+- [ ] Projektbesitzer
+
+
+
+[Referenz](https://cloud.google.com/logging/docs/access-control)
